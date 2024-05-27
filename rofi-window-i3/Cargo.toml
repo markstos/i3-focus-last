@@ -1,7 +1,6 @@
 [package]
 name = "rofi-window-i3"
 version = "0.1.0"
-edition = "2021"
 
 [lib]
 name = "rofi_window_i3"
@@ -14,6 +13,6 @@ byte-strings = "0.3"
 swayipc = "3.0.0"
 
 [build-dependencies]
-bindgen = "0.69"
+bindgen = "0.69.4"
 cc = "1"
 pkg-config = "0.3"
